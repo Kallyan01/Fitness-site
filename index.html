@@ -8,11 +8,84 @@
         HOME : Health,Fitness,Yoga,DietChart
     </Title>
     <meta name="description" content="I am Rk Tanwar,I am a professional Fitness trainer ,Nutranist,Dietitian">
-    <link rel="stylesheet" href="home%20.css">
+    <link rel="stylesheet" href="home.css">
     <meta name="viewport" content="width=device-width">
-    <script type="text/javascript" src="main%20.js"></script>
+    <script type="text/javascript" src="main.js"></script>
     <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
     <script src="https://kit.fontawesome.com/a35fb36c6a.js" crossorigin="anonymous"></script>
+    <style>
+        .swiper-container {
+            width: 100%;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+
+        .swiper-slide {
+            background: #fff;
+            background-position: center;
+            background-size: cover;
+            width: 300px;
+            height: 400px;
+            border-radius: 8px;
+        }
+
+        .img-bx {
+            height: 80px;
+            width: 80px;
+            border-radius: 50%;
+            margin: 5px 100px 0px 100px;
+        }
+
+        h5,
+        h4 {
+            text-align: center;
+        }
+
+        .swiper-slide p {
+            margin: 20px;
+        }
+
+        @media screen and (max-width:1080px) {}
+
+        @media screen and (max-width:780px) {
+            .swiper-slide p {
+                margin: 5px 20px 0px -19px;
+                font-size: 12px;
+                width: 25%;
+                text-align: center;
+            }
+
+            h5,
+            h4 {
+                
+            }
+
+            .swiper-container {
+                width: 100%;
+                padding-top: 50px;
+                padding-bottom: 50px;
+            }
+
+            .swiper-slide {
+                background: #fff;
+                background-position: center;
+                background-size: cover;
+                width: 300px;
+                height: 400px;
+                border-radius: 8px;
+                z-index: 1;
+            }
+
+            .img-bx {
+                height: 80px;
+                width: 80px;
+                border-radius: 50%;
+                margin: 30px 40px 0px 40px;
+            }
+        }
+
+    </style>
 </Head>
 
 <body>
@@ -80,8 +153,8 @@
 
     <div class="pbox">
         <div class="mtext">
-        <q>A Life style program for those waiting to achive their personal goal</q>
-    </div>
+            <q>A Life style program for those waiting to achive their personal goal</q>
+        </div>
         <div class="box1">
             <center>
                 <h3>4 Week Ascend </h3>
@@ -95,7 +168,8 @@
                 <LI>ABDOMINAL ROUTIBES</LI>
                 <LI>24/7 SUPPORT</LI>
                 <li>WEEKLY CHECKINS</li>
-                <li>TIPS,ADVICE AND MOTIVATION</li>                <h5>Rs-1999/-</h5>
+                <li>TIPS,ADVICE AND MOTIVATION</li>
+                <h5>Rs-1999/-</h5>
             </div>
             <a class="cnct" href="https://wa.me/919671839891">Contact Now>></a>
         </div>
@@ -143,23 +217,103 @@
             </div>
         </div> -->
     </div>
-    <div class="loader-wraper">
+    <div class="loader-wraper" id="load" onload="loader()">
         <h4>Loading...</h4>
         <img class="loader" src="dumbbell-512%20(1).png">
     </div>
+    <!-- Swiper JS -->
+    <script src="../package/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <div class="header"><b>Reviews</b>
         <div class="line"></div>
     </div>
     <div class="cmnt">
-        <div class="cb">
-            <div class="cb1"><img src="cmnt.jpg"></div>
-            <div class="cb2"><img src="cmnt.jpg"></div>
-            <div class="cb3"><img src="cmnt.jpg"></div>
-            <div class="cb4"><img src="cmnt.jpg"></div>
-            <div class="cb5"><img src="cmnt.jpg"></div>
-            <div class="cb6"><img src="cmnt.jpg"></div>
+        <div class="swiper-container">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="layer">
+                        </div>
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <img class="img-bx" src="u1.jpg" />
+                            <h4>Some one famous</h4>
+                            <h5>Web Developer</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="layer">
+                        </div>
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <img class="img-bx" src="u2.jpg" />
+                            <h4>Some one famous</h4>
+                            <h5>Web Developer</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="layer">
+                        </div>
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <img class="img-bx" src="u3.jpg" />
+                            <h4>Some one famous</h4>
+                            <h5>Web Developer</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="layer">
+                        </div>
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <img class="img-bx" src="u4.jpg" />
+                            <div class="dtls">
+                                <h4>Some one famous</h4>
+                                <h5>Web Developer</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-slide">
+                    <div class="card">
+                        <div class="layer">
+                        </div>
+                        <div class="content">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                            <img class="img-bx" src="u5.jpg" />
+                            <h4>Some one famous</h4>
+                            <h5>Web Developer</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
+    <script>
+        var swiper = new Swiper('.swiper-container', {
+            effect: 'coverflow',
+            grabCursor: true,
+            centeredSlides: true,
+            slidesPerView: 'auto',
+            coverflowEffect: {
+                rotate: 0,
+                stretch: 0,
+                depth: 0,
+                modifier: 1,
+                slideShadows: true,
+            },
+            loop: true,
+        });
+
+    </script>
     <a name="contactme"></a>
     <div class="header"><b>Contact Me</b>
         <div class="line"></div>
@@ -171,4 +325,6 @@
         <div class="cpyrt"><b>Copyright &copy; 2020 by RK Fitness</b></div>
 
     </footer>
-</body></html>
+</body>
+
+</html>
