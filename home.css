@@ -8,7 +8,7 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 
-.loader-wraper {
+#load {
     position: fixed;
     top: 8px;
     left: 8px;
@@ -187,7 +187,8 @@ body {
 }
 
 .intro {
-    background-color: black;
+    background-color: #000;
+    background-attachment: fixed;
     height: 122vh;
     width: 100%;
     margin: 0px 0px 135px 0px;
@@ -291,6 +292,7 @@ h1 {
 .cont {
     margin: 20px;
     width: 655px;
+    text-align: justify;
 }
 
 .pbox {
@@ -374,9 +376,9 @@ h3 {
 
 .cmnt {
     height: 80vh;
-    background-color: #000;
     justify-content: center;
     align-content: center;
+    background-attachment: fixed;
 }
 .feat {
     color: black;
@@ -691,6 +693,7 @@ span {
         padding: 0px 10px 20px 1px;
         width: 92%;
         font-size: 26px;
+        text-align: justify;
     }
 
     .intro {
@@ -788,6 +791,7 @@ span {
         margin: 22px;
         width: 320px;
         font-size: 15px;
+        text-align: justify;
     }
 
     .intro .socioico {
@@ -958,7 +962,7 @@ span {
         position: fixed;
         width: 100%;
         display: ;
-        z-index: 1;
+        z-index: 10;
     }
 
     .nav li {
@@ -1269,7 +1273,8 @@ span {
 
     .cont {
         width: 274px;
-        font-size: 12px
+        font-size: 12px;
+        text-align: justify;
     }
 
     .box1 h3,

@@ -21,7 +21,7 @@ function closelog()
         document.getElementById("popbox1").style.display = "none";
     
 }
-function loader()
+function load()
 {
-    document.getElementById("load").style.display= "none";
+    document.getElementById("load").style.display="none";
 }
