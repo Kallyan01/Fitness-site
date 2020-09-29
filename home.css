@@ -22,8 +22,6 @@ body {
     color: white;
     overflow-y: hidden;
     animation: h4anim 2s ease-in;
-
-
 }
 
 .pbox .mtext {
@@ -379,6 +377,7 @@ h3 {
     align-content: center;
     background-attachment: fixed;
 }
+
 .feat {
     color: black;
     text-transform: capitalize;
@@ -700,13 +699,10 @@ span {
         width: 100%;
         background-color: transparent;
         margin: 0px 0px -30px 0px;
-    }
-
-    .intro .introimg3 {
-        display: grid;
-        position: inherit;
-        height: 80vh;
-        width: 100%;
+        background-image: url(Polish_20200819_104927411.webp);
+        background-attachment: fixed;
+            background-size:cover;
+     background-repeat: no-repeat;
     }
 
     .introimg2 {
@@ -796,7 +792,7 @@ span {
     .intro .socioico {
         position: absolute;
         display: none;
-        background-color:transparent;
+        background-color: transparent;
         justify-content: center;
         align-content: center;
         height: auto;
@@ -1207,7 +1203,16 @@ span {
     .introimg2 {
         display: none;
     }
-
+ .intro {
+        height: 80vh;
+        width: 100%;
+        background-color: transparent;
+        margin: 0px 0px -30px 0px;
+        background-image: url(Polish_20200819_104927411.webp);
+        background-attachment: fixed;
+        background-size:contain;
+     background-repeat: no-repeat;
+    }
     .intro .introimg3 {
         height: 90vh;
         position: static;
@@ -1294,8 +1299,8 @@ span {
         left: auto;
         overflow: hidden;
     }
-    .socioico li 
-    {
+
+    .socioico li {
         margin: 10px;
     }
 
