@@ -21,8 +21,7 @@ body {
     display: flex;
     color: white;
     overflow-y: hidden;
-    animation: h4anim 2s;
-    display: none;
+    animation: h4anim 2s ease-in;
 
 
 }
