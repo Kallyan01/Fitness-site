@@ -23,7 +23,27 @@ body {
     overflow-y: hidden;
     animation: h4anim 2s ease-in;
 }
-
+.cnctme .cont
+{
+    position: relative;
+    display: ;
+    width: 100%;
+}
+.cnctme .cont .tel,.cnctme .cont .email
+{
+    margin: 0px 30px;
+}
+.cnctme .cont a
+{
+    text-decoration: none;
+    color: orangered;
+    font-size: 20px;
+}
+.email .fa,.fa
+{
+    font-size: 30px;
+    margin: 10px;
+}
 .pbox .mtext {
     height: 15vh;
     width: 100%;
@@ -767,6 +787,12 @@ span {
     .wave {
         display: none;
     }
+    .cnctme .cont
+{
+    position: relative;
+    display: ;
+    width: auto;
+}
 
     .loader-wraper {
         position: fixed;
@@ -1281,6 +1307,20 @@ span {
         font-size: 18px;
         margin: 5px;
     }
+        .cnctme .cont
+{
+    position: relative;
+    margin: 30px 0px 10px 0px;
+    width: auto;
+}
+     .cont .fa, .fa
+    {
+        font-size: 15px;
+    }
+ .cnctme .cont a
+    {
+        font-size: 15px;
+    }
 
     .intro .socioico {
         position: fixed;
@@ -1289,7 +1329,7 @@ span {
         width: 100%;
         margin: auto;
         z-index: 1;
-        top: 85%;
+        top: 95px;
         left: auto;
         overflow: hidden;
     }
