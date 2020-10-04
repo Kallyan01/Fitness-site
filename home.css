@@ -484,7 +484,7 @@ footer .socioico
     float: right;
     position: absolute;
     top: 380%;;
-    left: 940px;
+    left: 1100px;
 
 }
 footer .socioico i
@@ -1011,7 +1011,7 @@ span {
 
     .nav {
         position: fixed;
-        width: 100%;
+        width:100%;
         display: ;
         z-index: 10;
     }
@@ -1308,6 +1308,37 @@ span {
         font-family: cursive;
         background-color: yellow;
     }
+    footer .navbar
+{
+    position: ;
+    top: 100px;
+    left: 80px;
+    margin: auto;
+    display: block;
+    display: none;
+}
+footer .navbar a
+{
+    text-decoration: none;
+    color: black;
+    font-family:sans-serif
+}
+footer .socioico
+{
+    display: flex;
+    float: right;
+    position: absolute;
+    top: 465%;;
+    left: 80px;
+    margin: 10px
+
+}
+footer .socioico i
+{
+    color: white;
+    font-size: 20px
+}
+
 
 }
 
