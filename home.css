@@ -1048,13 +1048,13 @@ span {
     .navbar {
         background-color: white;
         height: 100%;
-        width: 0%;
+        width: 100%;
         align-content: center;
         position: fixed;
         top: 0px;
         left: 0px;
         z-index: 1;
-        opacity: 100%;
+        opacity: 0%;
         overflow: hidden;
     }
 
@@ -1238,21 +1238,21 @@ span {
 
     @keyframes mynav {
         from {
-            width: 60%;
+            opacity: 0%;
         }
 
         to {
-            width: 100%;
+            opacity: 100%;
         }
     }
 
     @keyframes closemenu {
         from {
-            height: 10%;
+            opacity: 100%;
         }
 
         to {
-            height: 100%;
+            opacity: 0%;
         }
     }
 
