@@ -465,6 +465,33 @@ footer {
     height: 40vh;
     width: 100%;
 }
+footer .navbar
+{
+    position: absolute;
+    float: right;
+    top: 360%;
+    margin: 20px
+}
+footer .navbar a
+{
+    text-decoration: none;
+    color: white;
+    font-family:sans-serif
+}
+footer .socioico
+{
+    display: flex;
+    float: right;
+    position: absolute;
+    top: 380%;;
+    left: 940px;
+
+}
+footer .socioico i
+{
+    color: white;
+    font-size: 20px
+}
 
 .cpyrt {
     width: 100%;
