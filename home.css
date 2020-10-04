@@ -27,11 +27,11 @@ body {
 {
     position: relative;
     display: ;
-    width: 100%;
+    width: auto;
 }
 .cnctme .cont .tel,.cnctme .cont .email
 {
-    margin: 0px 30px;
+    margin: 0px 20px;
 }
 .cnctme .cont a
 {
@@ -42,7 +42,7 @@ body {
 .email .fa,.fa
 {
     font-size: 30px;
-    margin: 10px;
+    margin: 20px;
 }
 .pbox .mtext {
     height: 15vh;
