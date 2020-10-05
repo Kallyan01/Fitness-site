@@ -846,18 +846,15 @@ span {
     }
 
     .intro .socioico {
-        position: absolute;
-        display: none;
-        background-color: transparent;
+        position:fixed;
         justify-content: center;
         align-content: center;
         height: auto;
         width: 100%;
         margin: 0px;
-        z-index: 1;
+        z-index: 10;
         top: 85%;
         left: auto;
-        overflow: hidden;
         -webkit-tap-highlight-color: transparent;
     }
 
@@ -871,8 +868,9 @@ span {
     .socioico a {
         font-size: 30px;
         padding: 2px;
-        transition: 2s;
+        transition: 1.2s ease-in;
         cursor: pointer;
+        color: black;
     }
 
     .navbar h6 {
@@ -883,25 +881,7 @@ span {
         display: none;
     }
 
-    ul li:nth-child(1) a {
-        color: #3b5999;
-        margin: auto;
-    }
 
-    ul li:nth-child(2) a {
-        color: #55acee;
-        margin: auto;
-    }
-
-    ul li:nth-child(3) a {
-        color: #25D366;
-        margin: auto;
-    }
-
-    ul li:nth-child(4) a {
-        color: #e4405f;
-        margin: auto;
-    }
 
 
     .pbox p {
@@ -1382,14 +1362,13 @@ footer .socioico i
 
     .intro .socioico {
         position: fixed;
-        display: none;
         height: auto;
         width: 100%;
         margin: auto;
-        z-index: 1;
-        top: 95px;
+        z-index: 10;
         left: auto;
         overflow: hidden;
+        opacity: 100%;
     }
 
     .socioico li {
