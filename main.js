@@ -3,7 +3,6 @@ function openmenu() {
     document.getElementById("nav-bar").style.animation = "mynav 1.0s ease";
     document.getElementById("nav-bar").style.display = "";
     document.getElementById("sico").style.display = "flex";
-    document.getElementById("h61").style.display = "block";
     document.getElementById("bdy").style.overflow = "hidden";
 
 }
