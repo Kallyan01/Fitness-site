@@ -1308,15 +1308,17 @@ footer .socioico
     display: flex;
     float: right;
     position: absolute;
-    top: 508%;;
-    left: 15%;
+    top: 465%;
+    left: 24%;
     margin: auto;
 
 }
 footer .socioico i
 {
     color: white;
-    font-size: 20px
+    font-size: 23px;
+    cursor: pointer;
+    margin: -20px;
 }
 
 
@@ -1449,4 +1451,20 @@ footer .socioico i
         font-family: cursive;
         background-color: yellow;
     }
+    footer .socioico
+{
+    display: flex;
+    float: right;
+    position: absolute;
+    top: 508%;;
+    left: 28%;
+    margin: auto;
+
+}
+footer .socioico i
+{
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
 }
