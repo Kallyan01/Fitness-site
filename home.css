@@ -17,7 +17,7 @@ body {
     background-color: #0009;
     width: 100%;
     height: 100%;
-    z-index: 1;
+    z-index: 10;
     display: flex;
     color: white;
     overflow-y: hidden;
@@ -462,29 +462,19 @@ h3 {
 
 footer {
     background-color: #000;
-    height: 40vh;
+    height: 15vh;
     width: 100%;
-}
-footer .navbar
-{
-    position: absolute;
-    float: right;
-    top: 360%;
-    margin: 20px
-}
-footer .navbar a
-{
-    text-decoration: none;
-    color: white;
-    font-family:sans-serif
+    position:absolute;
+    top: auto;
 }
 footer .socioico
 {
     display: flex;
     float: right;
     position: absolute;
-    top: 370%;;
-    left: 900px;
+    top: -10%;;
+    left: 555px;
+    margin: auto;
 
 }
 footer .socioico i
@@ -495,12 +485,11 @@ footer .socioico i
 
 .cpyrt {
     width: 100%;
-    background-color: black;
     color: orangered;
     font-family: sans-serif;
     text-align: center;
     position: relative;
-    top: 4%;
+    top: 55%;
     height: 40px;
     font-family: 'PT Serif Caption', serif;
     font-size: 15px;
@@ -511,6 +500,7 @@ footer .socioico i
     position: relative;
     top: -30px;
     margin: 10px;
+    display: none;
 
 }
 
@@ -714,7 +704,6 @@ span {
 
     .cpyrt {
         width: 100%;
-        background-color: black;
         color: orangered;
         font-family: sans-serif;
         text-align: center;
@@ -730,7 +719,7 @@ span {
         position: relative;
         top: -30px;
         margin: 10px;
-
+        display: none;
     }
 
     .cont {
@@ -839,8 +828,9 @@ span {
     }
 
     .cont {
-        margin: 22px;
-        width: 320px;
+        margin: auto;
+        width: 100%;
+        height: auto;
         font-size: 15px;
         text-align: justify;
     }
@@ -1035,6 +1025,7 @@ span {
         left: 0px;
         z-index: 1;
         opacity: 0%;
+        display:none;
         overflow: hidden;
     }
 
@@ -1213,7 +1204,8 @@ span {
         font-size: 12px;
         height: 5vh;
         vertical-align: center;
-        top: 100px;
+        top: 75px;
+        position: absolute;
     }
 
     @keyframes mynav {
@@ -1288,27 +1280,16 @@ span {
         font-family: cursive;
         background-color: yellow;
     }
-    footer .navbar
-{
-    position: ;
-    top: 100px;
-    left: 80px;
-    margin: auto;
-    display: block;
-    display: none;
-}
-footer .navbar a
-{
-    text-decoration: none;
-    color: black;
-    font-family:sans-serif
-}
+footer
+    {
+    top:auto;
+    }
 footer .socioico
 {
     display: flex;
     float: right;
     position: absolute;
-    top: 448%;
+    top: 0%;
     left: 24%;
     margin: auto;
 
@@ -1389,9 +1370,6 @@ footer .socioico i
         font-size: 13px;
         margin: 0px 7px 0px 15px;
     }
-
-    .intro .introimg3 {}
-
     .box1 .cnct,
     .box2 .cnct,
     .box3 .cnct {
@@ -1451,12 +1429,20 @@ footer .socioico i
         font-family: cursive;
         background-color: yellow;
     }
+    footer
+    {
+     top:auto;
+    }
+    footer .cpyrt
+    {
+        top:50px;
+    }
     footer .socioico
 {
     display: flex;
     float: right;
     position: absolute;
-    top: 508%;;
+    top: -25%;
     left: 28%;
     margin: auto;
 

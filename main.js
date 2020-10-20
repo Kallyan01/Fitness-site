@@ -1,7 +1,7 @@
 function openmenu() {
     document.getElementById("nav-bar").style.opacity = "100%";
     document.getElementById("nav-bar").style.animation = "mynav 1.0s ease";
-    document.getElementById("nav-bar").style.display = "";
+    document.getElementById("nav-bar").style.display = "block";
     document.getElementById("sico").style.display = "flex";
     document.getElementById("bdy").style.overflow = "hidden";
 
