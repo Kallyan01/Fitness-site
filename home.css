@@ -503,35 +503,31 @@ footer .socioico i
     display: none;
 
 }
+.pgal
+{
 
-.btn {
-    color: white;
-    border: 2px solid orangered;
-    background: transparent;
-    margin: 20px;
-    padding: 15px;
-    width: 135px;
-    border-radius: 8px;
-    position: absolute;
-    font-family: 'PT Serif Caption', serif;
-    top: 80%;
-    left: 40%;
-    font-size: 16px;
-    transition: 0.5s;
-    outline: none;
-
+    
 }
 
-.btn:hover {
-    margin: none;
-    font-size: 15px;
-    transition: 0.8s ease;
-    padding: none;
-    text-align: center;
-    cursor: pointer;
-    background: transparent;
-    border: 2px solid #FFC500;
-    color: orangered;
+ .btn {
+    color: white;
+    border: 2px solid orangered;
+    background: orangered;
+    margin: auto;
+    padding: 10px;
+    width: 135px;
+    border-radius: 10px;
+    position: absolute;
+    font-family: 'PT Serif Caption', serif;
+    font-size: 20px;
+    outline: none;
+}
+.pgal .photogal
+{
+    position: relative;
+    background-color:black;
+    width: 100%;
+    height: auto;
 }
 
 @keyframes mymove {
