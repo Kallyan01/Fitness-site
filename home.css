@@ -229,7 +229,7 @@ body {
 .wave {
     position: absolute;
     transform: rotateX();
-    top: 540px;
+    top: 558px;
     z-index: 1;
 }
 
